@@ -64,6 +64,25 @@
     margin-left: 0; /* to remove the margin from the element after forth element */
 }
 
+.videoSobre .container{
+    display: flex; /* Puts the text next to the video*/
+}
+
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2; /* the flex item .videoSobre-sobre will fill the space */
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-video{
+    flex-grow: 1;
+}
+
 /*Chage to mobile */
 
 @media(max-width: 768px){
