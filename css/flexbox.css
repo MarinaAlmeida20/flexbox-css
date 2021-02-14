@@ -81,6 +81,7 @@
 
 .videoSobre-video{
     flex-grow: 1;
+    flex-shrink: 2;/* the video size change when the screen change the size*/
 }
 
 /*Chage to mobile */
@@ -128,5 +129,13 @@
 
     .conteudoPrincipal-cursos-link-app {
         order: -1; /*put the "Nosso APP" at the first position*/
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .videoSobre-video {
+        margin: 0 auto;
     }
 }
